@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">开源中国</string>
+
+    <string name="drawer_menu_answer">技术问答</string>
+    <string name="drawer_menu_opensoft">开源软件</string>
+    <string name="drawer_menu_blog">博客区</string>
+    <string name="drawer_menu_gitclient">Git客户端</string>
+
+    <string name="loading">加载中...</string>
+    <string name="loading_no_more">已加载全部</string>
+    <string name="no_data">暂无内容</string>
+
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string name="main_tab_news">综合</string>
+    <string name="main_tab_tweet">动弹</string>
+    <string name="main_tab_quick">快速</string>
+    <string name="main_tab_explore">发现</string>
+    <string name="main_tab_me">我</string>
+
+    <string name="toolbar_title_settings">设置</string>
+    <string name="toolbar_title_settings_notification">新消息提醒</string>
+    <string name="toolbar_title_about">关于开源中国</string>
+    <string name="toolbar_title_login">登录</string>
+    <string name="toolbar_title_my_information_detail">我的资料</string>
+
+
+    <string name="setting_loading_img">加载图片</string>
+    <string name="setting_notification">消息通知</string>
+    <string name="setting_clean_cache">清理缓存</string>
+    <string name="setting_double_click_exit">双击退出</string>
+    <string name="setting_about_app">关于开源中国</string>
+    <string name="setting_exit_app">退出</string>
+
+    <string name="setting_notification_accept">接收新通知</string>
+    <string name="setting_notification_voice">声音</string>
+    <string name="setting_notification_vibration">震动</string>
+    <string name="setting_notification_app_exit">退出后不提醒</string>
+
+    <string name="about_check_version">检查新版本</string>
+    <string name="about_feedback">意见反馈</string>
+    <string name="about_score">去评分</string>
+    <string name="about_git_client">Git客户端</string>
+    <string name="about_official_website">官网</string>
+    <string name="about_more">了解更多</string>
+    <string name="about_copyright">Copyright © OSChina All rights reserved</string>
+
+    <string name="menu_share_to">分享到</string>
+
+    <string name="hint_username">邮箱/用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="login_btn_text">登录</string>
+    <string name="login_desc">还可以使用其他账户登录</string>
+
+    <string name="toast_input_username">请输入账号/邮箱</string>
+    <string name="toast_input_password">请输入密码</string>
+    <string name="toast_no_internet">当前没有可用的网络</string>
+    <string name="toast_internet_error">网络错误</string>
+    <string name="toast_getuserinfo_error">获取用户信息发生错误</string>
+    <string name="toast_logout_success">注销成功</string>
+
+    <string name="my_score">积分</string>
+    <string name="my_favorite">收藏</string>
+    <string name="my_following">关注</string>
+    <string name="my_fans">粉丝</string>
+    <string name="my_message">消息</string>
+    <string name="my_blog">博客</string>
+    <string name="my_note">便签</string>
+    <string name="my_team">团队</string>
+
+    <string name="my_join_time">加入时间:</string>
+    <string name="my_location">所在地区:</string>
+    <string name="my_development_platform">开发平台:</string>
+    <string name="my_academic_focus">专长领域:</string>
+
+    <string name="no_login">未登录</string>
+    <string name="logout">注销账号</string>
+
+
+</resources>
+

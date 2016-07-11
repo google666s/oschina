@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_bg_normal">
+
+    <include layout="@layout/fragment_my_information_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_my_message"
+            style="@style/option_item_rl">
+
+            <ImageView style="@style/option_item_img"
+                android:src="@drawable/icon_my_message"/>
+
+            <TextView
+               style="@style/option_item_text"
+                android:text="@string/my_message"/>
+
+        </LinearLayout>
+
+        <View style="@style/h_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_my_blog"
+            style="@style/option_item_rl">
+
+            <ImageView style="@style/option_item_img"
+                android:src="@drawable/icon_my_blog"/>
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/my_blog"/>
+
+        </LinearLayout>
+
+        <View style="@style/h_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_my_note"
+            style="@style/option_item_rl">
+
+            <ImageView style="@style/option_item_img"
+                android:src="@drawable/icon_my_note"/>
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/my_note"/>
+
+        </LinearLayout>
+
+        <View style="@style/h_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_my_team"
+            style="@style/option_item_rl">
+
+            <ImageView style="@style/option_item_img"
+                android:src="@drawable/icon_my_team"/>
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/my_team" />
+
+        </LinearLayout>
+
+        <View style="@style/h_line"/>
+
+    </LinearLayout>
+
+</LinearLayout>

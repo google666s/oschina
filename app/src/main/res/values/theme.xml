@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DayTheme" parent="@style/Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/day_colorPrimary</item> <!-- ActionBar Background Color -->
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item> <!-- 状态栏颜色 -->
+        <item name="android:textColorLink">#0b9a27</item>
+        <item name="colorAccent">@color/day_colorPrimary</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- ActionBar Title Color -->
+
+        <item name="textColor">@color/day_textColor</item>
+        <item name="infoTextColor">@color/day_infoTextColor</item>
+        <item name="lineColor">@color/day_line_color</item>
+        <item name="layout_bg_normal">@color/day_layout_bg_normal</item>
+        <item name="layout_item_bg">@drawable/day_list_item_backgound</item>
+        <item name="window_bg">@color/day_window_bg</item>
+
+    </style>
+
+
+    <style name="NightTheme" parent="@style/Theme.AppCompat">
+
+        <item name="colorPrimary">@color/night_colorPrimary</item> <!-- ActionBar Background Color -->
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item> <!-- 状态栏颜色 -->
+        <item name="android:textColorLink">@color/night_colorPrimaryDark</item>
+        <item name="colorAccent">@color/night_colorPrimary</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- ActionBar Title Color -->
+
+        <item name="textColor">@color/night_textColor</item>
+        <item name="infoTextColor">@color/night_infoTextColor</item>
+        <item name="lineColor">@color/night_line_color</item>
+        <item name="layout_bg_normal">@color/night_layout_bg_normal</item>
+        <item name="layout_item_bg">@drawable/night_list_item_backgound</item>
+        <item name="window_bg">@color/night_window_bg</item>
+    </style>
+
+</resources>

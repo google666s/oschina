@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_item_bg"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            style="@style/h_line"
+            android:layout_marginTop="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_loading_img"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_loading_img" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/tb_loading_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_notification"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_notification" />
+
+        </RelativeLayout>
+        <View style="@style/h_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_clean_cache"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_clean_cache" />
+
+            <TextView
+                android:id="@+id/tv_cache_size"
+                android:layout_alignParentRight="true"
+                android:textColor="?attr/infoTextColor"
+                android:textSize="14sp"
+                style="@style/option_item_text"
+                android:text="10MB" />
+
+        </RelativeLayout>
+        <View style="@style/h_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_double_click_exit"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_double_click_exit" />
+
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/tb_double_click_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <View style="@style/h_line" />
+        <View style="@style/h_line" android:layout_marginTop="20dp" />
+        <RelativeLayout
+            android:id="@+id/rl_about_app"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_about_app" />
+
+        </RelativeLayout>
+        <View style="@style/h_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_exit_app"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/setting_exit_app" />
+
+        </RelativeLayout>
+        <View style="@style/h_line" />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/layout_bg_normal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="16dp"
+        android:background="@drawable/user_center_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <com.yizhui.oschina.widget.CircleImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="user name"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_info"
+            android:text="@string/my_join_time" />
+
+        <TextView
+            android:id="@+id/tv_join_time"
+            style="@style/option_item_text" />
+    </LinearLayout>
+
+    <View style="@style/h_line" />
+
+    <LinearLayout style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_info"
+            android:text="@string/my_location" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            style="@style/option_item_text" />
+    </LinearLayout>
+
+    <View style="@style/h_line" />
+
+    <LinearLayout style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_info"
+            android:text="@string/my_development_platform" />
+
+        <TextView
+            android:id="@+id/tv_dev_platform"
+            style="@style/option_item_text" />
+    </LinearLayout>
+
+    <View style="@style/h_line" />
+
+    <LinearLayout style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_info"
+            android:text="@string/my_academic_focus" />
+
+        <TextView
+            android:id="@+id/tv_academic_focus"
+            style="@style/option_item_text" />
+    </LinearLayout>
+
+    <View style="@style/h_line" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/logout"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_red_selector"
+        android:textSize="18sp"/>
+</LinearLayout>

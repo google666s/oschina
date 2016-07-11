@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="?attr/layout_item_bg">
+
+    <TextView
+        android:id="@+id/list_cell_software_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:textSize="18sp"
+        android:text="Android SDK"/>
+    <TextView
+        android:id="@+id/list_cell_software_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:textSize="13sp"
+        android:layout_marginTop="3dp"
+        android:text="软件描述"/>
+
+</LinearLayout>

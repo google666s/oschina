@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/drawer_menu_item_answer"
+      style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:id="@+id/drawer_menu_iv_answer"
+            android:src="@drawable/drawer_menu_icon_quest_nor" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="技术问答" />
+
+    </LinearLayout>
+
+    <View style="@style/h_line"></View>
+
+    <LinearLayout
+        android:id="@+id/drawer_menu_item_opensoft"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:id="@+id/drawer_menu_iv_opensoft"
+            android:src="@drawable/drawer_menu_icon_opensoft_nor" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="开源软件" />
+
+    </LinearLayout>
+
+    <View style="@style/h_line"></View>
+
+    <LinearLayout
+        android:id="@+id/drawer_menu_item_blog"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:id="@+id/drawer_menu_iv_blog"
+            android:src="@drawable/drawer_menu_icon_blog_nor" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="博客园" />
+
+    </LinearLayout>
+
+    <View style="@style/h_line"></View>
+
+    <LinearLayout
+        android:id="@+id/drawer_menu_item_gitclient"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:id="@+id/drawer_menu_iv_gitclient"
+            android:src="@drawable/drawer_menu_icon_gitapp_nor" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:id="@+id/tv_drawer_menu_item"
+            android:text="Git客户端" />
+
+    </LinearLayout>
+
+    <View style="@style/h_line"></View>
+
+</LinearLayout>

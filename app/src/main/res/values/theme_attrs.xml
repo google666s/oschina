@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textColor" format="reference"/><!-- 文本颜色 -->
+    <attr name="infoTextColor" format="reference"/><!-- 提示消息文本颜色 -->
+    <attr name="lineColor" format="reference" /><!-- 分割线颜色 -->
+    <attr name="layout_bg_normal" format="reference"/>
+    <attr name="layout_item_bg" format="reference"/>
+    <attr name="window_bg" format="reference"/>
+
+</resources>

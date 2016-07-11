@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_item_bg"
+    android:scrollbars="none">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@null"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/tv_app_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textColor="?attr/textColor"
+                android:textSize="16sp"/>
+            
+        </LinearLayout>
+
+        <View style="@style/h_line" android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/rl_check_version"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/about_check_version" />
+        </LinearLayout>
+
+        <View style="@style/h_line" />
+
+        <View style="@style/h_line" android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/rl_feedback"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/about_feedback" />
+        </LinearLayout>
+        <View style="@style/h_line" />
+        <LinearLayout
+            android:id="@+id/rl_score"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/about_score" />
+        </LinearLayout>
+        <View style="@style/h_line" />
+
+        <View style="@style/h_line" android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/rl_git_client"
+            style="@style/option_item_rl">
+
+            <TextView
+                style="@style/option_item_text"
+                android:text="@string/about_git_client" />
+        </LinearLayout>
+        <View style="@style/h_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_official_website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="?android:textColorLink"
+                    android:text="@string/about_official_website"
+                    android:clickable="true"/>
+                <TextView
+                    android:id="@+id/tv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:textColor="?android:textColorLink"
+                    android:text="@string/about_more"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:textColor="?attr/infoTextColor"
+                android:text="@string/about_copyright"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
